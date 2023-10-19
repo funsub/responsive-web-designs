@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #171b32;
+    color: #f2f6f7;
+    font-family: poppins;
+    font-size: 19px;
+    margin: 1em auto;
+    
+  }
+  div, h1, p{
+  text-align: center;
+  }
+  label{
+    display: block;
+    margin: 2rem 0;
+    margin-top: 10px;
+    text-align: left;
+  }
+  select{
+  display: block;
+  margin: auto;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding-top: 1em;
+  }
+  input,
+  textarea,
+  select {
+    margin: 7px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    text-align: left;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  .inline, .input-checkbox {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  button {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #51c37d;
+    font-family: poppins;
+    min-width: 300px;
+    cursor: pointer;
+    border-radius: 5px solid white;
+  }
+  button:hover{
+    background-color: #f2f6f7;
+  }
+  a{
+    color: #4a91a3;
+  }

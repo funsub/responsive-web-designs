@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css" />
+    
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+      <div class="container">
+        <label id="name-label" for="name">Name<input id="name" name="name" type="text" placeholder="Enter Your Name" required /></label>        
+        <label id="email-label" for="email">Email<input id="email" name="email" type="email" placeholder="Enter Your Email" required /></label>
+        <label id="number-label" for="number">Age <input id="number" type="number" placeholder="age" name="age" min="13" max="120" /></label>
+        
+        <label for="dropdown">Which option best describes your current role?<select id="dropdown" name="dropdown">
+          <option value="">Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Part time job</option></select>
+        </label>
+
+        <label for="recommend">Would you recommend freeCodeCamp to a friend?<br>
+          <input type="radio" name="recommend" value="maybe" class="inline" />May be</label>
+        <label for="recommend"><input type="radio" name="recommend" value="Definitely" class="inline" />Definitely</label>
+
+        <label for="prefer">What would you like to see improved?<br>
+          <input name="prefer" value="Front-end Projects" type="checkbox" class="input-checkbox">Front-end Projects
+        </label>
+        <label for="prefer">
+          <input name="prefer" value="back-end Projects" type="checkbox" class="input-checkbox">Back-end Projects
+        </label>
+        <label for="prefer">
+          <input name="prefer" value="Data Visualization" type="checkbox" class="input-checkbox">Data Visualization
+        </label>
+        <label for="comment">Any comments or suggestions?
+          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="Enter your comment here!..."></textarea>
+        </label>
+        <button id="submit" type="submit">submit</button>
+        <a href="https://survey-form.freecodecamp.rocks/">link to template Survey Form</a>
+
+      </div>     
+    </form>
+  </body>
+</html>
